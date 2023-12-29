@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-image:url("welcome.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        header{
+        text-align: center;
+        box-shadow:  0 0 20px #df0707, 0 0 40px #bc1600 ;
+        }
+        .Block{
+            width: 300px;
+            height: 300px;
+           margin: 250px 730px; 
+           border-radius: 10px;
+          background-color: rgba(15, 13, 13,0.9);
+          box-shadow:  0 0 20px #4707df, 0 0 40px #002cbc ; 
+          transition: transform(0.2s);
+        }
+        .Block:hover{
+            transform:rotate(00deg) scale(1.2);
+        }
+        .Block h1{
+         text-align:center;
+         color: aliceblue;
+
+        }
+        .user{
+           text-align: center;
+            margin-top: 5px;
+            margin-bottom: 9px;
+        }
+        .user input{
+          color: rgb(255, 0, 0);
+            border-color: black;
+           border-radius: 10px;
+            width:250px;
+            height: 40px;
+           background-color: rgba(31, 25, 25,0.9);
+          
+        }
+        .password{
+            text-align: center;
+
+        }
+        .password input{
+            color: rgb(255, 0, 0);
+            border-color: black;
+           border-radius: 10px;
+            width: 250px;
+            height: 40px;
+            background-color: rgba(31, 25, 25,0.9);
+        }
+        .button{
+            text-align: center;
+
+        }
+        .button button{
+            margin-top: 10px;
+            width: 250px;
+            height: 40px;
+            background-color:rgb(81, 252, 81);
+             border-radius: 10px; 
+             border-color:rgb(81, 252, 81) ;       
+        }
+        .forget{
+            margin-top: 15px;
+            margin-left:12px;
+
+        }
+        .forget a{
+            
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+       
+    </header>
+    <div class="Block">
+<h1> Order</h1>
+<div class="user">
+    <input type="text" placeholder="Enter your name">
+</div>
+<div class="password">
+    <input id="pass" type="text" placeholder="Enter your number">
+   
+</div>
+
+<div class="button">
+    <button> Submit</button></div>
+
+
+</body>
+</html>
